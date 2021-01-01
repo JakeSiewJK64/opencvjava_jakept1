@@ -16,6 +16,12 @@ import org.opencv.core.MatOfByte;
 import org.opencv.imgcodecs.Imgcodecs;
 
 public class imencode {
+	
+	/*
+	 * 
+	 * IN THIS JAVA CLASS, WE WILL DEMONSTRATE HOW TO IMMEDIATELY DISPLAY PROCESSED IMAGES TO JFRAME
+	 * 
+	 */
 	public static void main(String[] args) {
 		
 		// load the opencv library

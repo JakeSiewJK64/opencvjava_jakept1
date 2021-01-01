@@ -80,14 +80,13 @@ public class faceDetection {
 			frame.getContentPane().add(new JLabel(new ImageIcon(img)));
 			frame.setVisible(true);
 			frame.pack();
+			frame.setTitle("OpenCV Face Detection by Jake SJK");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		String writePath = new String("C:\\\\Users\\\\Shirley\\\\eclipse-workspace\\\\HelloUI\\\\src\\\\drawable\\\\saved.jpg");				
-		Imgcodecs.imwrite(writePath, matrix);
-		
-		
+		Imgcodecs.imwrite(writePath, matrix);		
 	}
 }
